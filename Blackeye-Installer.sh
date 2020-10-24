@@ -12,7 +12,7 @@ echo '|___|_| |_|___/\__\__,_|_|_|_|_| |_|\__, | '
 echo '                                    |___/  '
 
 echo -e '\033[93mCloning to Blackeye'
-git clone https://github.com/thelinuxchoice/blackeye
+git clone https://github.com/An0nUD4Y/blackeye
 
 echo -e '\033[93mInstalling Requirements'
 pkg install php curl wget unzip
