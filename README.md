@@ -4,5 +4,5 @@
 
 * Commands
 ```
-$ cd Blackeye-Installer && bash Blackeye-Installer.sh
+$ git clone https://github.com/Tasin-coder/Blackeye-Installer && cd Blackeye-Installer && bash Blackeye-Installer.sh
 ```
