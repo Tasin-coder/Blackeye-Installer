@@ -1,3 +1,4 @@
+GNU nano 5.3               Blackeye-Installer.sh
 cd
 clear
 
@@ -13,12 +14,11 @@ pkg install git
 echo "\033[93mSetting up Ngrok\033[00m"
 cd
 git clone https://github.com/Tasin-coder/tunnel
-cd tunnel/intlr.sh
-bash installer.sh
+bash tunnel/instalr/installer.sh
 cd
 echo -e '\033[93mCloning to Blackeye\033[00m'
 git clone https://github.com/Tasin-coder/blackeye
-
+chmod +x blackeye/ngrok
 echo -e '\033[93mInstalling Requirements\033[00m'
 pkg install php curl wget unzip -y
 rm -rf tunnel
